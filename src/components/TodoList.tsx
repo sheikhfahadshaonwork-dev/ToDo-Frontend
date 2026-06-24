@@ -3,7 +3,6 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { useTodos } from '../hooks/useTodos';
 import TodoItem from './TodoItem';
 import EmptyState from './EmptyState';
-import LoadingSpinner from './LoadingSpinner';
 import type { Todo, TodoFilters } from '../types';
 
 interface TodoListProps {
